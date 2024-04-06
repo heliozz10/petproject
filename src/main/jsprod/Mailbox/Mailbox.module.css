@@ -1,0 +1,101 @@
+input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid hsl(0, 0%, 20%);
+}
+button {
+    background-color: hsl(180, 100%, 90%);
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    border: none;
+
+    transition: 0.3s;
+}
+button:hover {
+    background: hsl(180, 100%, 90%);
+    transform: translateY(-3px);
+    box-shadow: 0 0 10px 5px rgba(175, 255, 255, 1);
+    background: linear-gradient(326deg, rgba(218,250,250,1) 2%, rgba(204,255,255,1) 100%);
+}
+
+
+.container {
+    padding: 50px 70px;
+    display: flex;
+    justify-content: center;
+    padding: 50px, 70px;
+}
+.mail-wrapper {
+    min-height: 465px;
+    display: flex;
+    position: relative;
+    width: 90%;
+    padding: 50px 70px;
+    border: 1px solid hsl(0, 0%, 10%);
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+.mail-form {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px 30px;
+}
+
+.mail-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.text {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    border: 1px solid hsl(0, 0%, 16%);
+    border-radius: 10px;
+    padding: 10px;
+}
+.send {
+    border-bottom: none;
+    width: 200px;
+    align-self: flex-end;
+}
+.title {
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 1.5rem;
+}
+
+/* REGISTRATION FORM  */
+.reg {
+    left: calc((280/780) * 100%);
+    align-self: center;
+    position: absolute;
+    background-color: #fff;
+    max-width: 50%;
+    border: 1px solid hsl(0, 0%, 63%);
+    padding: 35px 45px 20px;
+    border-radius: 10px;
+    z-index: 2;
+
+}
+.submit-full-name {
+    width: 200px;
+    align-self: center;
+}
+.reg form{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    margin-bottom: 30px;
+}
+.mail-form form {
+    filter: blur(4px); 
+    transition: filter 0.5s;
+}
+
+.reg-hidden {
+    display: none;
+}

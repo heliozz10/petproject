@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Nunito:wght@200..1000&family=Raleway:wght@100..900&display=swap');
+
+@keyframes ease-in {
+
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(-200px);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    90% {
+        transform: translateY(-10px);
+    }
+    100%, 10%, 60% {
+        transform: translateX(0);
+    }
+  }
+
+.header {
+    display: flex;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.header-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    max-width: min-content;
+}
+.logo img{
+    max-width: 100px;
+    max-height: 100px;
+}
+.logo-text {
+    font-family: "Fredoka", sans-serif;
+    font-size: 3rem;
+    transform: translateX(-1rem);
+}
+
+
+
+
+
+nav {
+    width: 20%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: bounce 0.5s 1 ease-out 1s forwards;
+    transform: translateY(-100px);
+}
+

@@ -1,0 +1,25 @@
+.card {
+    /* align-self: center;
+    justify-self: center; */
+    max-width: 20%;
+    height: 40vh;
+    border: 1px solid #000;
+    margin: 5px;
+    border-radius: 0.5em;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 1px 0.25px;
+}
+.card-name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-number {
+    font: 1.5em sans-serif;;
+}
+.card img {
+    border-radius: 50%;
+}
