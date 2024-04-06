@@ -4,8 +4,8 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-bundle.js
-bundle.js.map
+src/main/webapp/WEB-INF/js/bundle.js
+src/main/webapp/WEB-INF/js/bundle.js.map
 
 ### STS ###
 .apt_generated
